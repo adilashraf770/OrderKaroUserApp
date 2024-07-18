@@ -61,7 +61,7 @@
     <string name="cash">cash</string>
     <string name="food_name">Food Name</string>
     <string name="_1_strowberry_n_2_cream_n_3_wheat">1.Strowberry \n2.Cream \n3.wheat</string>
-    <string name="default_web_client_id">309899331843-mnm93romsrdepb53t0p71bo9ge5kkrtv.apps.googleusercontent.com</string>
+    <string name="default_web_client_id">place your client id</string>
     <string name="doller">$</string>
     <string name="logout">logout</string>
     <string name="congrats_your_order_placed">Congrats \n Your Order Placed</string>
