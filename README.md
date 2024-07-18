@@ -1,9 +1,12 @@
 # Order Karo - Food Ordering App
 
-![Order Karo](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721297318/github/git_hub_banner_oxmqba.png)
+![Order Karo](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299488/github/orderkaroappuser1.png)
 
+ 
 ## Description
 Order Karo is a native Android application built using Kotlin for seamless food ordering. It features Firebase authentication (sign in, sign up, splash screen) and consists of five main fragments: Home, Cart, Search, History, and Profile. Users can add items to their cart, purchase food items, and all user details, cart information, order history, and profile data are stored in Firebase Realtime Database. The menu items are also stored in the database for easy management.
+
+![Order Karo](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299971/github/orderkarouserapp3.png)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -43,7 +46,7 @@ Order Karo is a native Android application built using Kotlin for seamless food 
 
 ## Authentication
 
-![Authentication Banner](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721297329/github/git_hub_auth_gooigf.png)
+![Authentication Banner](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299597/github/orderkaroappuser2.png)
  
 
 - The app uses Firebase Authentication for sign in, sign up, and splash screen.
