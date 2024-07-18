@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cartCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_10sdp"
+    android:layout_margin="@dimen/_10sdp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/_10sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cartImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/img"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/foodName"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/yeon_sung_regular"
+            android:text=" sajdhjksdahlksadkssajdkhaladshjsakadskladjlkl;jdaskdskad"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintBottom_toTopOf="@+id/foodPrice"
+            app:layout_constraintEnd_toEndOf="@+id/foodPrice"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/card"
+            app:layout_constraintTop_toTopOf="@+id/card" />
+
+        <TextView
+            android:id="@+id/foodPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:text="38"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_18ssp"
+            app:layout_constraintStart_toEndOf="@+id/card"
+            app:layout_constraintTop_toBottomOf="@+id/foodName" />
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/imgBtnIcre"-->
+        <!--            android:layout_width="@dimen/_20sdp"-->
+        <!--            android:layout_height="@dimen/_20sdp"-->
+        <!--            android:background="@drawable/greenbuttongradient"-->
+        <!--            android:contentDescription="@string/incrse"-->
+        <!--            android:src="@drawable/plus"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/quantityTxt"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/quantityTxt" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/quantityTxt"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="1"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textSize="@dimen/_20sdp"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/imgBtnDelete"-->
+        <!--            app:layout_constraintEnd_toStartOf="@+id/imgBtnIcre"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/foodName" />-->
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/imgBtnDecre"-->
+        <!--            android:layout_width="@dimen/_20sdp"-->
+        <!--            android:layout_height="@dimen/_20sdp"-->
+        <!--            android:background="@drawable/greenbuttongradient"-->
+        <!--            android:contentDescription="@string/decreese"-->
+        <!--            android:src="@drawable/minus"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/quantityTxt"-->
+        <!--            app:layout_constraintEnd_toStartOf="@+id/quantityTxt"-->
+        <!--            app:layout_constraintTop_toTopOf="@+id/quantityTxt" />-->
+
+        <ImageButton
+            android:id="@+id/imgBtnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/delete"
+            android:src="@drawable/trash"
+            app:layout_constraintBottom_toBottomOf="@+id/foodPrice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/foodName"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
