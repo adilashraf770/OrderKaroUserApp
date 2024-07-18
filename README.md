@@ -1,4 +1,4 @@
-# Order Karo - Food Ordering App
+# Order Karo - Food Ordering App For User
 
  <img src= "https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299488/github/orderkaroappuser1.png" height="600" />
 
