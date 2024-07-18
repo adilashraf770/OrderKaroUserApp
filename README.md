@@ -1,6 +1,6 @@
 # Order Karo - Food Ordering App
 
-![Order Karo](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299488/github/orderkaroappuser1.png)
+ <img src= "https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299488/github/orderkaroappuser1.png" height="600" />
 
  
 ## Description
@@ -12,7 +12,7 @@ Firebase Realtime Database plays a pivotal role in the app's architecture, stori
 
 Overall, Order Karo combines the powerful features of Kotlin and Firebase to deliver a comprehensive and user-friendly food ordering application, making it a reliable and enjoyable tool for users to order their favorite meals with ease.
 
-![Order Karo](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299971/github/orderkarouserapp3.png)
+<img src="https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299971/github/orderkarouserapp3.png" height="600" />
 
 ## Table of Contents
 - [Installation](#installation)
@@ -52,8 +52,8 @@ Overall, Order Karo combines the powerful features of Kotlin and Firebase to del
 
 ## Authentication
 
-![Authentication Banner](https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299597/github/orderkaroappuser2.png)
- 
+ <img src="https://res.cloudinary.com/dc1uxxvox/image/upload/v1721299597/github/orderkaroappuser2.png" height="600" />
+
 
 - The app uses Firebase Authentication for sign in, sign up, and splash screen.
 - Ensure the Firebase Authentication methods are enabled in the Firebase Console.
