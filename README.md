@@ -93,4 +93,4 @@ If you have any questions or suggestions, feel free to contact me at [smadal770@
 
 ## Download
 You can download the APK file from the following link:
-[Order Karo APK](https://drive.google.com/file/d/1pEo0rJixixycKPsTAM1I3LOLETO6TmSQ/view?usp=sharing)
+[Order Karo APK](https://drive.google.com/file/d/1iFAA8MWk1eLNF35-mRvQnU2jgpxioyKe/view?usp=sharing)
